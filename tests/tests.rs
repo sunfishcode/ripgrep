@@ -1,3 +1,5 @@
+extern crate eyra;
+
 // Macros useful for testing.
 #[macro_use]
 mod macros;
