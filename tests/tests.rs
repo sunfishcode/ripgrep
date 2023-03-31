@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 // Macros useful for testing.
 #[macro_use]
 mod macros;

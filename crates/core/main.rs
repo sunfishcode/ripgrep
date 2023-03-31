@@ -20,6 +20,8 @@ mod path_printer;
 mod search;
 mod subject;
 
+mustang::can_run_this!();
+
 // Since Rust no longer uses jemalloc by default, ripgrep will, by default,
 // use the system allocator. On Linux, this would normally be glibc's
 // allocator, which is pretty good. In particular, ripgrep does not have a
